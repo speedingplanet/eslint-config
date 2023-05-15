@@ -1,0 +1,51 @@
+{
+	"extends": ["standard-with-typescript", "./index.js"],
+	"plugins": ["@typescript-eslint"],
+	"overrides": [
+		{
+			"files": ["*.ts", "*.tsx"],
+			"parser": "@typescript-eslint/parser",
+			"parserOptions": {
+				"project": "./tsconfig.json"
+			},
+			"rules": {
+				"comma-dangle": "off",
+				"@typescript-eslint/comma-dangle": [
+					"warn",
+					{
+						"functions": "never",
+						"exports": "never",
+						"imports": "never",
+						"arrays": "always-multiline",
+						"objects": "always-multiline"
+					}
+				],
+				"indent": "off",
+				"@typescript-eslint/indent": ["warn", "tab", { "SwitchCase": 1 }],
+				"no-unused-vars": "off",
+				"@typescript-eslint/no-unused-vars": ["warn"],
+				"semi": "off",
+				"@typescript-eslint/semi": ["warn", "always"],
+				"quotes": "off",
+				"@typescript-eslint/quotes": ["warn", "single"],
+				"space-before-function-paren": "off",
+				"@typescript-eslint/space-before-function-paren": ["warn", { "named": "never" }],
+				"@typescript-eslint/explicit-function-return-type": ["off"],
+				"@typescript-eslint/member-delimiter-style": [
+					"warn",
+					{ "multiline": { "delimiter": "semi" } }
+				],
+				"@typescript-eslint/no-confusing-void-expression": [
+					"error",
+					{ "ignoreArrowShorthand": true }
+				],
+				"@typescript-eslint/no-misused-promises": ["error", { "checksVoidReturn": false }],
+				"@typescript-eslint/object-curly-spacing": "warn",
+				"@typescript-eslint/promise-function-async": ["off"],
+				"@typescript-eslint/triple-slash-reference": "off",
+				"@typescript-eslint/strict-boolean-expressions": "off",
+				"@typescript-eslint/restrict-template-expressions": "off"
+			}
+		}
+	]
+}
