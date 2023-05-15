@@ -22,8 +22,5 @@ describe('Basic ESLint config tests', () => {
 		let firstRecord = results[0];
 		expect(firstRecord.warningCount).to.be.greaterThan(0);
 		expect(firstRecord.fixableWarningCount).to.be.greaterThan(0);
-		const formatter = await linter.loadFormatter('stylish');
-		const formattedResults = formatter.format(results);
-		console.log(formattedResults);
 	});
 });

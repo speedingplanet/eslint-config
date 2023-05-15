@@ -1,10 +1,10 @@
 {
 	"name": "@speedingplanet/eslint-config",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "Speeding Planet's ESLint configuration",
 	"main": "index.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "mocha"
 	},
 	"keywords": [
 		"eslint",
@@ -12,7 +12,11 @@
 		"typescript"
 	],
 	"author": "John Paxton <pax@speedingplanet.com>",
-	"license": "ISC",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/speedingplanet/eslint-config"
+	},
 	"peerDependencies": {
 		"@babel/eslint-plugin": ">=7",
 		"@typescript-eslint/eslint-plugin": ">=5",
