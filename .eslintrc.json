@@ -12,7 +12,7 @@
 	"extends": ["standard"],
 	"rules": {
 		"array-bracket-newline": ["warn", "consistent"],
-		"array-element-newline": ["warn", { "multiline": true, "minItems": 3 }],
+		"array-element-newline": ["warn", "consistent"],
 		"comma-dangle": [
 			"warn",
 			{
