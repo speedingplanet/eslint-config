@@ -2,6 +2,7 @@
 	"name": "@speedingplanet/eslint-config",
 	"version": "0.0.3",
 	"description": "Speeding Planet's ESLint configuration",
+	"type": "module",
 	"main": "index.js",
 	"scripts": {
 		"test": "mocha"
@@ -34,7 +35,8 @@
 		"@babel/preset-env": "^7.21.4",
 		"@typescript-eslint/parser": "^5.58.0",
 		"eslint-config-standard": "^17.0.0",
-		"eslint-config-standard-with-typescript": "^34.0.1"
+		"eslint-config-standard-with-typescript": "^34.0.1",
+		"globals": "^13.21.0"
 	},
 	"devDependencies": {
 		"@types/node": "^18.15.13",

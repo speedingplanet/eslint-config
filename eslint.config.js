@@ -1,56 +1,15 @@
-{
-	"env": {
-		"browser": true,
-		"node": true,
-		"es2022": true
+import coding from './coding.js';
+import globals from 'globals';
+
+let base = {
+	languageOptions: {
+		ecmaVersion: 'latest',
+		globals: {
+			...globals.browser,
+		},
 	},
-	"parser": "@babel/eslint-parser",
-	"parserOptions": {
-		"ecmaVersion": "latest"
-	},
-	"plugins": ["@babel"],
-	"extends": ["standard"],
-	"rules": {
-		"array-bracket-newline": ["warn", "consistent"],
-		"array-element-newline": ["warn", "consistent"],
-		"comma-dangle": [
-			"warn",
-			{
-				"functions": "never",
-				"exports": "never",
-				"imports": "never",
-				"arrays": "always-multiline",
-				"objects": "always-multiline"
-			}
-		],
-		"indent": ["warn", "tab", { "SwitchCase": 1 }],
-		"max-len": ["warn", { "code": 120, "comments": 120 }],
-		"multiline-ternary": ["error", "always-multiline"],
-		"newline-per-chained-call": ["error", { "ignoreChainWithDepth": 1 }],
-		"no-tabs": ["off"],
-		"no-trailing-spaces": "warn",
-		"no-unused-vars": ["warn"],
-		"no-void": ["off"],
-		"object-curly-newline": [
-			"warn",
-			{
-				"ImportDeclaration": { "minProperties": 4 },
-				"ExportDeclaration": { "minProperties": 2 },
-				"ObjectExpression": {
-					"minProperties": 2,
-					"multiline": true,
-					"consistent": true
-				},
-				"ObjectPattern": { "minProperties": 3 }
-			}
-		],
-		"object-property-newline": ["error", { "allowAllPropertiesOnSameLine": false }],
-		"padded-blocks": "warn",
-		"prefer-const": "off",
-		"prefer-regex-literals": "off",
-		"semi": ["error", "always"],
-		"quotes": ["warn", "single"],
-		"space-before-function-paren": ["warn", { "named": "never" }]
-	},
-	"ignorePatterns": ["node_modules", "dist", "generated"]
-}
+	rules: {},
+	ignores: ['node_modules', 'dist', 'generated', 'test/originals'],
+};
+
+export default [{ ...base, ...coding }];
