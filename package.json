@@ -23,16 +23,14 @@
 	},
 	"peerDependencies": {
 		"eslint": ">=8",
-		"eslint-plugin-import": ">=2",
+		"eslint-plugin-import": "^2.29.0",
 		"eslint-plugin-node": ">=11",
 		"eslint-plugin-promise": ">=6"
 	},
 	"dependencies": {
-		"eslint-config-standard": "^17.0.0",
-		"globals": "^13.21.0"
+		"eslint-config-standard": "^17.0.0"
 	},
 	"devDependencies": {
-		"@types/node": "^18.15.13",
 		"chai": "^4.3.10",
 		"mocha": "^10.2.0",
 		"prettier": "^3.0.0"
