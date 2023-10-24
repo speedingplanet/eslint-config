@@ -2,7 +2,6 @@
 	"name": "@speedingplanet/eslint-config",
 	"version": "0.0.4",
 	"description": "Speeding Planet's ESLint configuration",
-	"type": "module",
 	"main": "index.js",
 	"scripts": {
 		"test": "mocha"
