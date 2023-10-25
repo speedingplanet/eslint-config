@@ -6,7 +6,7 @@ This is the default ESLint configuration for courses delivered or provided by Sp
 
 ### JSON files
 
-JSON files can be used by ECMAScript Module (ESM) or CommonJS based projects. 
+JSON files can be used by ECMAScript Module (ESM) or CommonJS based projects.
 
 ### ESLint configuration
 
@@ -14,6 +14,4 @@ Start with [Standard JS](https://standardjs.com/) (or the TypeScript [equivalent
 
 ### Babel configuration
 
-Per Babel's config [overview](https://babeljs.io/docs/usage#overview) as well as details on the `[targets](https://babeljs.io/docs/options#targets)` config, specifying this target configuration here prevents the possibility that Babel would default to ES5 level output. 
-
-Since, in theory, there should not be Babel transformations happening, I'm skipping an install of core-js at the moment. 
+Removed. There were unpatched security risks, and I wasn't using Babel.
