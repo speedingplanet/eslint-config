@@ -1,5 +1,1 @@
-- Babel: Consider overriding [browserlist defaults](https://github.com/browserslist/browserslist#queries)
 - Update to use ESM
-- Incorporate javascript-config variants
-  - React in particular
-- Figure out a way to have a TypeScript option without downloading TypeScript as a dependency
