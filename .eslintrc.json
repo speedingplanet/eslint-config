@@ -6,7 +6,7 @@
 	},
 	"extends": ["standard"],
 	"rules": {
-		"indent": "off",
+		"indent": ["warn", "tab"],
 		"no-tabs": "off",
 		"no-unused-vars": ["warn"],
 		"no-var": "warn",
