@@ -1,6 +1,6 @@
 {
 	"name": "@speedingplanet/eslint-config",
-	"version": "0.0.5",
+	"version": "0.0.6",
 	"description": "Speeding Planet's ESLint configuration",
 	"main": "index.js",
 	"scripts": {
@@ -8,8 +8,7 @@
 	},
 	"keywords": [
 		"eslint",
-		"eslintconfig",
-		"typescript"
+		"eslintconfig"
 	],
 	"author": "John Paxton <pax@speedingplanet.com>",
 	"license": "MIT",
@@ -21,7 +20,7 @@
 		"node": ">=18"
 	},
 	"peerDependencies": {
-		"eslint": ">=8",
+		"eslint": ">=8.54",
 		"eslint-plugin-import": "^2.29.0",
 		"eslint-plugin-node": ">=11",
 		"eslint-plugin-promise": ">=6"
@@ -32,6 +31,6 @@
 	"devDependencies": {
 		"chai": "^4.3.10",
 		"mocha": "^10.2.0",
-		"prettier": "^3.0.0"
+		"prettier": "^3.1.0"
 	}
 }
