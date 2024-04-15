@@ -1,1 +1,3 @@
 - Update to use ESM
+- Update to better testing platform
+- Add more tests
