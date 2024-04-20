@@ -23,7 +23,7 @@
 		"multiline-ternary": ["error", "always-multiline"],
 		"newline-per-chained-call": ["error", { "ignoreChainWithDepth": 1 }],
 		"no-tabs": ["off"],
-		"no-trailing-spaces": "warn",
+		"no-trailing-spaces": ["warn", { "ignoreComments": true }],
 		"no-unused-vars": ["warn"],
 		"no-void": ["off"],
 		"object-curly-newline": [
@@ -47,5 +47,5 @@
 		"quotes": ["warn", "single"],
 		"space-before-function-paren": ["warn", { "named": "never" }]
 	},
-	"ignorePatterns": ["node_modules", "dist", "generated"]
+	"ignorePatterns": ["node_modules", "dist", "generated", "backups"]
 }
