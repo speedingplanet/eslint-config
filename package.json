@@ -1,6 +1,6 @@
 {
 	"name": "@speedingplanet/eslint-config",
-	"version": "0.0.7",
+	"version": "0.0.6",
 	"description": "Speeding Planet's ESLint configuration",
 	"main": "index.js",
 	"type": "module",
