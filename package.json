@@ -1,10 +1,10 @@
 {
 	"name": "@speedingplanet/eslint-config",
-	"version": "0.0.5",
+	"version": "0.0.7",
 	"description": "Speeding Planet's ESLint configuration",
 	"main": "index.js",
 	"scripts": {
-		"test": "mocha"
+		"test": "echo None found"
 	},
 	"keywords": [
 		"eslint",
@@ -21,17 +21,12 @@
 		"node": ">=18"
 	},
 	"peerDependencies": {
-		"eslint": ">=8",
-		"eslint-plugin-import": "^2.29.0",
-		"eslint-plugin-node": ">=11",
-		"eslint-plugin-promise": ">=6"
-	},
-	"dependencies": {
-		"eslint-config-standard": "^17.0.0"
+		"eslint": ">=9"
 	},
 	"devDependencies": {
-		"chai": "^4.3.10",
-		"mocha": "^10.2.0",
-		"prettier": "^3.0.0"
+		"prettier": "^3.3.2"
+	},
+	"dependencies": {
+		"globals": "^15.6.0"
 	}
 }

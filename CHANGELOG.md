@@ -2,5 +2,7 @@
 
 ## v-0.0.7
 
-- Added "backups" to `ignorePatterns`. Most SpeedingPlanet classes use a file management system that creates a "backups" folder. No need to lint it.
-- Ignore trailing whitespace in comments because really, who cares?
+- Moved to ESLint version 9, which simplified a lot!
+  - As a consequence, all styling information is gone, replaced by Prettier.
+- Currently using `eslint:recommended` to see whether that's a good thing.
+- Added "backups" to `ignores`. Most Speeding Planet classes use a file management system that creates a "backups" folder. No need to lint it.

@@ -1,5 +1,6 @@
-- Babel: Consider overriding [browserlist defaults](https://github.com/browserslist/browserslist#queries)
-- Update to use ESM
-- Incorporate javascript-config variants
-  - React in particular
-- Figure out a way to have a TypeScript option without downloading TypeScript as a dependency
+- [ ] Consider using [ESLint Stylistic](https://eslint.style/) as an add-on?
+- [ ] Add tests to verify that ESLint is linting the way we expect it to
+- [x] [Removed Babel] Babel: Consider overriding [browserlist defaults](https://github.com/browserslist/browserslist#queries)
+- [x] [Updated to ESLint v9] Update to use ESM
+- [x] [Removed variants] ~~Incorporate javascript-config variants~~
+  - [x] [See above] Figure out a way to have a TypeScript option without downloading TypeScript as a dependency
