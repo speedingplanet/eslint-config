@@ -4,19 +4,17 @@ import js from '@eslint/js';
 export default [
 	js.configs.recommended,
 	{
-		ignores: ['**/node_modules', '**/dist', '**/generated', '**/backups', '**/test'],
-	},
-	{
+		name: '@speedingplanet/eslint-config',
 		languageOptions: {
 			globals: {
 				...globals.browser,
 				...globals.node,
 			},
 		},
-
 		rules: {
 			'no-unused-private-class-members': 'warn',
-			'no-unused-vars': ['warn'],
+			'no-unused-vars': 'warn',
+			'prefer-const': 'off',
 		},
 	},
 ];

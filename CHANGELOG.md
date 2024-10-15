@@ -1,5 +1,12 @@
 # Changelog
 
+## v-0.0.8
+
+- Updated dependencies, no major updates
+- Removed `**/test` from `ignores`
+- Dropped global `ignores` altogether; too opinionated
+- Picked up recent changes from classes
+
 ## v-0.0.7
 
 - Moved to ESLint version 9, which simplified a lot!

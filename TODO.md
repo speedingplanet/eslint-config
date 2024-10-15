@@ -1,5 +1,9 @@
 - [ ] Consider using [ESLint Stylistic](https://eslint.style/) as an add-on?
 - [ ] Add tests to verify that ESLint is linting the way we expect it to
+- [ ] Re-use standard rules here without formatting
+- [ ] Handle typescript
+- [ ] Handle react
+- [ ] Handle react with typescript
 - [x] [Updated to ESLint v9] Update to use ESM
 - [x] [Removed Babel] ~~Babel: Consider overriding [browserlist defaults](https://github.com/browserslist/browserslist#queries)~~
 - [x] [Removed variants] ~~Incorporate javascript-config variants~~
