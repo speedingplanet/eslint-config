@@ -11,6 +11,7 @@ export default [
 				...globals.node,
 			},
 		},
+		files: ['**/*.js?(x)', '**/*.ts?(x)'],
 		rules: {
 			'no-unused-private-class-members': 'warn',
 			'no-unused-vars': 'warn',

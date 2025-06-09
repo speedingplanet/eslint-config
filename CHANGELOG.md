@@ -3,6 +3,11 @@
 ## v-0.0.8
 
 - Updated dependencies, no major updates
+- Added files config, for React purposes
+
+## v-0.0.8
+
+- Updated dependencies, no major updates
 - Removed `**/test` from `ignores`
 - Dropped global `ignores` altogether; too opinionated
 - Picked up recent changes from classes
