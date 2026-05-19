@@ -1,6 +1,6 @@
 {
 	"name": "@speedingplanet/eslint-config",
-	"version": "0.0.9",
+	"version": "0.0.10",
 	"description": "Speeding Planet's ESLint configuration",
 	"main": "index.js",
 	"type": "module",
@@ -19,16 +19,17 @@
 		"url": "https://github.com/speedingplanet/eslint-config"
 	},
 	"engines": {
-		"node": ">=18"
+		"node": ">=22"
 	},
 	"peerDependencies": {
-		"eslint": "^9.28.0"
+		"eslint": "^10"
 	},
 	"devDependencies": {
-		"prettier": "^3.5.3"
+		"prettier": "^3"
 	},
 	"dependencies": {
-		"@eslint/js": "^9.5.0",
-		"globals": "^15.15.0"
+		"@eslint/js": "^10.0.1",
+		"eslint": "^10",
+		"globals": "^17.6.0"
 	}
 }

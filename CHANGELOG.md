@@ -1,6 +1,17 @@
 # Changelog
 
-## v-0.0.8
+## v-0.0.10
+
+- Fixed error in CHANGELOG
+- Full update to ESLint v10
+  - Used `npm init @eslint/config` to generate eslint.config.js
+  - Updated dependencies
+    - eslint 9 -> 10.4
+    - @eslint/js 9 -> 10
+    - globals 15 -> 17.6
+- Started using yalc to manage cross-dependencies
+
+## v-0.0.9
 
 - Updated dependencies, no major updates
 - Added files config, for React purposes

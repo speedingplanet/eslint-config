@@ -1,21 +1,18 @@
-import globals from 'globals';
 import js from '@eslint/js';
+import globals from 'globals';
+import { defineConfig } from 'eslint/config';
 
-export default [
-	js.configs.recommended,
+export default defineConfig([
 	{
-		name: '@speedingplanet/eslint-config',
-		languageOptions: {
-			globals: {
-				...globals.browser,
-				...globals.node,
-			},
-		},
-		files: ['**/*.js?(x)', '**/*.ts?(x)'],
+		files: ['**/*.{js,mjs,cjs}'],
+		plugins: { js },
+		extends: ['js/recommended'],
+		languageOptions: { globals: { ...globals.browser, ...globals.node } },
+	},
+	{
 		rules: {
 			'no-unused-private-class-members': 'warn',
 			'no-unused-vars': 'warn',
-			'prefer-const': 'off',
 		},
 	},
-];
+]);
